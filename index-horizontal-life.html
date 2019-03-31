@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Instagram Feed Test</title>
+
+
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/magnific.css">
+	<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #instafeed {
+  max-width:1080px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+  a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    background: white;
+    
+    @media only screen and (min-width: $lg) {
+      width: 25%;
+    }
+    
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="vcard-main-wrapper">
+        <div class="vcard-content-wrapper bg-img" style="background-image: url(img/bg-img/bg5.jpg);" baclground-size="contain">
+
+            <!-- Contact Button -->
+            <div class="horizontal-contact-btn">
+                <a href="doc/Resume.pdf" target="_blank" class="btn vcard-btn contact-btn"><i class="fa fa-envelope-o"></i><span>Download Resume</span></a>
+            </div>
+
+            <!-- Header Area -->
+            <header class="header_area">
+                <!-- Logo -->
+                <div class="logo d-flex justify-content-center align-items-center">
+                    <a href="index-horizontal-about.html"><img src="img/core-img/i1.jpg" alt=""></a>
+                    <!-- Navbar Toggle -->
+                    <div class="nav-toggle">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+
+                <!-- Menu -->
+                <ul class="vcard-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index-horizontal-education.html">Education</a></li>
+                    <li><a href="index-horizontal-experience.html">Experience</a></li>
+                    
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li  class="active"><a href="index-horizontal-life.html">Life</a></li>
+                    <li><a href="index-horizontal-contact.html">Contact</a></li>
+                </ul>
+            </header>
+
+        <div class="vcard-page-content-wrapper d-flex align-items-end">
+                <div class="page-content">
+                        <div class="container-fluid">
+                            
+                                
+
+                                    <div id="instafeed" class="row gallery">
+                                    
+                                     
+
+                                </div>
+                                    
+                            
+                                      <div class="row">
+                                            <div class="col-12">
+                                                <div class="see-more mt-70 text-center mb-100">
+                                                    <a href="https://instagram.com/robertli012" target=" blank" class="btn vcard-btn">View More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+    </div>
+
+
+    
+
+
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/instafeed.min.js"></script>
+<script src="./js/magnific.min.js"></script>
+<script src="./js/custom.js"></script>
+
+</body>
+</html>
