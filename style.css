@@ -486,8 +486,9 @@ textarea:focus {
   
   text-align:right;
   font-family: 'Indie Flower', cursive;
-  background-color:#87cefa;
-  
+  /*background-color:#87cefa;*/
+  width:20%;
+  margin-left:70%;
   }
     .bar a{
     position: relative;
@@ -519,17 +520,19 @@ textarea:focus {
     .hero-area .hero-content h5 {
       font-size: 50px;
       font-style: italic;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       font-weight: 600;
       color: #fff;
-      padding-top: 1px;}
+      padding-top: 1px;
+    background-color:#87cefa;}
     .hero-area .hero-content h2 {
       font-size: 92px;
       color: #ffd700;
-      margin-bottom: -10px;
+      /*margin-bottom: -10px;*/
       font-weight: 600;
       line-height: 1.1;
-      margin-left: -5px; }
+      margin-left: px;
+      background-color:#87cefa; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .hero-area .hero-content h2 {
           font-size: 72px; } }
@@ -1098,12 +1101,13 @@ textarea:focus {
       padding: 15px; } }
   .vcard-main-wrapper .vcard-content-wrapper {
     position: fixed;
-    width: calc(100% - 60px);
-    height: calc(100% - 60px);
-    top: 30px;
-    left: 30px;
+    width: calc(100%);
+    height: calc(100%);
+    top: 0px;
+    left: 0px;
     z-index: 20;
-    background-color: #f3f5f8; }
+    background-color: #f3f5f8;
+    background-size:cover; }
     @media only screen and (max-width: 767px) {
       .vcard-main-wrapper .vcard-content-wrapper {
         width: calc(100% - 30px);
